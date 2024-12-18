@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <title>Home</title>
+    <!-- link fontawsome -->
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+    <!-- link bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- link google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family= text-uppercase:wght@300..700&family=Nerko+One&display=swap"
+      rel="stylesheet"
+    />
+    <!-- link main css -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body class="bg-main">
+
+    <!-- main game -->
+
+    <div id="gameHolder" class="game pb-4">
+      <header>
+        <img
+          class="w-100 object-fit-cover"
+          src="assets/images/wraper.png"
+          alt="page background"
+        />
+      </header>
+      <nav class="navbar navbar-expand-lg p-0 position-sticky top-0 z-3">
+        <div class="container rounded-4 py-2 bg-alt">
+          <a
+            class="navbar-brand text-white nerko-one d-flex gap-1 align-items-center"
+            href="#"
+          >
+            <img src="assets/images/logo-sm.png" alt="logo" />
+            <h3 class="h4 fw-normal mb-0">Game Reviews</h3>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a
+                  class="nav-link p-2 link-light text-uppercase active"
+                  aria-current="mmorpg"
+                  href="#"
+                  >mmorpg</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-2 link-light text-uppercase" href="#"
+                  >shooter</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-2 link-light text-uppercase" href="#"
+                  >sailing</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-2 link-light text-uppercase" href="#"
+                  >permadeath</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-2 link-light text-uppercase" href="#"
+                  >superhero</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-2 link-light text-uppercase" href="#"
+                  >pixel</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <main class="mt-4">
+        <div class="container">
+          <div id="cardContaienr" class="row">
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <!-- details -->
+
+    <div id="detailsContainer" class="details z-2">
+    </div>
+
+    <!-- loading -->
+
+    <div id="loading" class="loading d-none">
+      <span class="loader"></span>
+    </div>
+    <script src="assets/js/bootstrap.bundle.js"></script>
+    <script src="assets/js/main.js" type="module"></script>
+  </body>
+</html>
